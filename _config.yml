@@ -7,8 +7,8 @@ google_analytics: "UA-46465113-2"
 
 # UI configs
 title: "Fotografia de Rua - Registrando Sorocaba, SP"
-subtitle: "Fotografia digital e Analógica"
-author: "Ram Patra"
+subtitle: "Registros do Cotidiano Urbano em Imagens"
+author: "Gabriel Lopes"
 header:
  title: "Fotografia de Rua - Registrando Sorocaba, SP"
  subtitle: "by 0g.leite"
@@ -22,4 +22,5 @@ web_design: "AJ"
 exif: '[{"tag": "Model", "icon": "camera-retro"}, {"tag": "FNumber", "icon": "dot-circle-o"}, {"tag": "ExposureTime", "icon": "clock-o"}, {"tag": "ISOSpeedRatings", "icon": "info-circle"}]'
 social_urls:
   instagram: "https://www.instagram.com/0g.leite"
-
+plugins:
+  - jekyll-sitemap
