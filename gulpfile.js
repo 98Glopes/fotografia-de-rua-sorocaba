@@ -15,12 +15,12 @@ gulp.task('resize-images', function () {
     return gulp.src('images/*.*')
         .pipe(imageResize({
             width: 1024,
-            imageMagick: true
+            imageMagick: false
         }))
         .pipe(gulp.dest('images/fulls'))
         .pipe(imageResize({
             width: 512,
-            imageMagick: true
+            imageMagick: false
         }))
         .pipe(gulp.dest('images/thumbs'));
 });
@@ -46,7 +46,7 @@ gulp.task('minify-js', function () {
         .pipe(gulp.dest('./assets/js'));
 });
 
-// build task
+// build taskma
 gulp.task('build', gulp.series('sass', 'minify-js'));
 
 // resize images
