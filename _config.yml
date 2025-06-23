@@ -3,7 +3,7 @@ baseurl: "https://98glopes.github.io/fotografia-de-rua-sorocaba/"
 #baseurl: "" # Comment the above line and uncomment this to test the website locally
 image_fulls_loc: "/images/fulls"
 image_thumbs_loc: "/images/thumbs"
-google_analytics: "UA-46465113-2"
+google_analytics: "G-FJCTYM3XWE"
 
 # UI configs
 title: "Fotografia de Rua - Registrando Sorocaba, SP"
