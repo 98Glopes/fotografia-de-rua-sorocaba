@@ -22,7 +22,7 @@ layout: default
         <article class="thumb">
             <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image" alt="{{image.image_description}}">
                 <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt="{{image.image_description}}"
-                     data-name="{{ image.image_description }}"/></a>
+                     data-name="{{ image.image_description }}" onclick="gtag('event', 'pic_view', {'pic': '{{ image.name }}'})"/></a>
             <!--<h2></h2>
             <p></p>-->
         </article>
